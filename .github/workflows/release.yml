@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
+        app: [ TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor ]
 
     steps:
       - name: Clone Repository Content
@@ -49,7 +49,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
+        app: [ TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor ]
 
     steps:
       - name: Clone Repository Content
@@ -82,8 +82,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
-        arch: [arm64, x64]
+        app: [ TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor ]
+        arch: [ arm64, x64 ]
         include:
           - app: TMGS1SaveEditor
             display_name: "TMGS 1 Save Editor"
@@ -126,30 +126,32 @@ jobs:
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
           <plist version="1.0">
           <dict>
-              <key>CFBundleName</key>
-              <string>${{ matrix.app }}</string>
-              <key>CFBundleDisplayName</key>
-              <string>${{ matrix.display_name }}</string>
-              <key>CFBundleIdentifier</key>
-              <string>${{ matrix.bundle_id }}</string>
-              <key>CFBundleVersion</key>
-              <string>1.0.0</string>
-              <key>CFBundlePackageType</key>
-              <string>APPL</string>
-              <key>CFBundleSignature</key>
-              <string>????</string>
-              <key>CFBundleExecutable</key>
-              <string>${{ matrix.app }}</string>
-              <key>NSHighResolutionCapable</key>
-              <true/>
+           <key>CFBundleName</key>
+           <string>${{ matrix.app }}</string>
+           <key>CFBundleDisplayName</key>
+           <string>${{ matrix.display_name }}</string>
+           <key>CFBundleIdentifier</key>
+           <string>${{ matrix.bundle_id }}</string>
+           <key>CFBundleVersion</key>
+           <string>1.0.0</string>
+           <key>CFBundlePackageType</key>
+           <string>APPL</string>
+           <key>CFBundleSignature</key>
+           <string>????</string>
+           <key>CFBundleExecutable</key>
+           <string>${{ matrix.app }}</string>
+           <key>NSHighResolutionCapable</key>
+           <true/>
           </dict>
           </plist>
           EOF
+          
+          codesign --force --deep --sign - "$APP_DIR"
 
       - name: Archive macOS Bundle
         run: |
           cd ./publish/${{ matrix.app }}/mac
-          zip -r ../../../${{ matrix.app }}-Mac-${{ matrix.arch }}.zip ${{ matrix.app }}.app
+          zip -yr ../../../${{ matrix.app }}-Mac-${{ matrix.arch }}.zip ${{ matrix.app }}.app
 
       - name: Upload macOS Asset to Release
         uses: softprops/action-gh-release@v2
