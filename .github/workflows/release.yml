@@ -53,13 +53,13 @@ jobs:
         app: [ TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor ]
         include:
           - app: TMGS1SaveEditor
-            icon: "icon1.png"
+            icon: "icon1.ico"
           - app: TMGS2SaveEditor
-            icon: "icon2.png"
+            icon: "icon2.ico"
           - app: TMGS3SaveEditor
-            icon: "icon3.png"
+            icon: "icon3.ico"
           - app: TMGS4SaveEditor
-            icon: "icon4.png"
+            icon: "icon4.ico"
 
     steps:
       - name: Clone Repository Content
