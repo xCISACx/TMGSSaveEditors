@@ -67,6 +67,8 @@ jobs:
     steps:
     - name: Clone Repository Content
       uses: actions/checkout@v4
+      with:
+        submodules: 'true'
 
     - name: Configure .NET Environment
       uses: actions/setup-dotnet@v4
