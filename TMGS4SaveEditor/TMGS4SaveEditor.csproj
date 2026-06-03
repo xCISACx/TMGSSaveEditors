@@ -5,13 +5,13 @@
     <Nullable>enable</Nullable>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
-	<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
-	<ApplicationIcon>Assets\icon4.ico</ApplicationIcon>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+    <ApplicationIcon>Assets\icon4.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\character.png" />
     <None Remove="Assets\character_shock.png" />
-    <None Remove="Assets\icon1.ico" />
+    <None Remove="Assets\icon4.ico" />
     <None Remove="Assets\logo.png" />
     <None Remove="Clothes Names.csv" />
     <None Remove="clothes.json" />
@@ -20,6 +20,7 @@
     <AvaloniaResource Include="Assets\character.png" />
     <AvaloniaResource Include="Assets\character_shock.png" />
     <AvaloniaResource Include="Assets\logo.png" />
+    <AvaloniaResource Include="Assets\icon4.ico" />
     <AvaloniaResource Include="Assets\Clothes Names.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AvaloniaResource>
