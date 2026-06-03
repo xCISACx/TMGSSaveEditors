@@ -16,12 +16,9 @@ jobs:
     name: Package Windows Desktop Binary
     runs-on: windows-latest
     strategy:
+      fail-fast: false
       matrix:
-        include:
-          - app: TMGS1SaveEditor
-          - app: TMGS2SaveEditor
-          - app: TMGS3SaveEditor
-          - app: TMGS4SaveEditor
+        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
 
     steps:
       - name: Clone Repository Content
@@ -50,12 +47,9 @@ jobs:
     name: Package Linux Binary
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        include:
-          - app: TMGS1SaveEditor
-          - app: TMGS2SaveEditor
-          - app: TMGS3SaveEditor
-          - app: TMGS4SaveEditor
+        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
 
     steps:
       - name: Clone Repository Content
@@ -86,7 +80,9 @@ jobs:
     name: Package macOS App Bundle
     runs-on: macos-latest
     strategy:
+      fail-fast: false
       matrix:
+        app: [TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor]
         arch: [arm64, x64]
         include:
           - app: TMGS1SaveEditor
