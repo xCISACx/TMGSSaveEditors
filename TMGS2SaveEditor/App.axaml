@@ -1,0 +1,101 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="TMGS2SaveEditor.App"
+             RequestedThemeVariant="Default">
+
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="ColorTextMain">#4a4a4a</Color>
+            <Color x:Key="ColorTextDark">#111111</Color>
+            <Color x:Key="ColorWhite">#FFFFFF</Color>
+            <Color x:Key="ColorAppBackground">#D6EFFF</Color>
+            <Color x:Key="ColorAppTextOnBackground">#4a4a4a</Color>
+
+            <Color x:Key="ColorControlBgHover">#FAFAFA</Color>
+            <Color x:Key="ColorControlBgPressed">#E8E8E8</Color>
+            <Color x:Key="ColorControlBorderMain">#D3D3D3</Color>
+            <Color x:Key="ColorControlBorderHover">#B0B0B0</Color>
+            <Color x:Key="ColorControlBorderPressed">#909090</Color>
+
+            <Color x:Key="ColorLoadMain">#ffb5c8</Color>
+            <Color x:Key="ColorLoadHover">#ee86a1</Color>
+            <Color x:Key="ColorLoadPressed">#e56b8b</Color>
+
+            <Color x:Key="ColorSaveMain">#6ecdf4</Color>
+            <Color x:Key="ColorSaveHover">#38b0fd</Color>
+            <Color x:Key="ColorSavePressed">#217fc4</Color>
+
+            <Color x:Key="ColorPrimaryMain">#ffb5c8</Color>
+            <Color x:Key="ColorPrimaryHover">#ee86a1</Color>
+            <Color x:Key="ColorPrimaryPressed">#e56b8b</Color>
+
+            <Color x:Key="ColorSecondaryMain">#6ecdf4</Color>
+            <Color x:Key="ColorSecondaryHover">#38b0fd</Color>
+            <Color x:Key="ColorSecondaryPressed">#217fc4</Color>
+
+            <Color x:Key="ColorHighlightHover">#fce5ea</Color>
+            <Color x:Key="ColorHighlightSelected">#fad0da</Color>
+            <Color x:Key="ColorHighlightSelectedHover">#ffb5c8</Color>
+
+            <Color x:Key="ColorBorderMain">#217fc4</Color>
+            <Color x:Key="ColorBorderHover">#217fc4</Color>
+            <Color x:Key="ColorBorderPressed">#217fc4</Color>
+
+            <Color x:Key="ColorLink">#217fc4</Color>
+
+            <Color x:Key="ColorTextSelectionBackground">#a3d8fe</Color>
+            <Color x:Key="ColorTextSelectionForeground">#333333</Color>
+
+            <!--DATE PICKER-->
+
+            <Color x:Key="DatePickerHighlight">#c6e4ff</Color>
+
+            <Color x:Key="AcceptButtonMain">#bdf9f9</Color>
+            <Color x:Key="AcceptButtonHover">#a6f0f0</Color>
+            <Color x:Key="AcceptButtonPressed">#90e8e8</Color>
+            <Color x:Key="AcceptButtonIcon">#52b3c3</Color>
+
+            <Color x:Key="DismissButtonMain">#ffe3dc</Color>
+            <Color x:Key="DismissButtonHover">#f4d0c7</Color>
+            <Color x:Key="DismissButtonPressed">#f0beb2</Color>
+            <Color x:Key="DismissButtonIcon">#e9809f</Color>
+
+            <Color x:Key="ArrowButtonMain">#fde5b0</Color>
+            <Color x:Key="ArrowButtonHover">#fad28a</Color>
+            <Color x:Key="ArrowButtonPressed">#edc274</Color>
+            <Color x:Key="ArrowButtonIcon">#c29426</Color>
+
+            <!--CHEAT MENU-->
+
+            <Color x:Key="GenCheatButtonMain">#fde5b0</Color>
+            <Color x:Key="GenCheatButtonHover">#fad28a</Color>
+            <Color x:Key="GenCheatButtonPressed">#edc274</Color>
+            <Color x:Key="GenCheatButtonText">#c29426</Color>
+            <Color x:Key="GenCheatButtonBorder">#c29426</Color>
+
+            <Color x:Key="GuyCheatButtonMain">#bdf9f9</Color>
+            <Color x:Key="GuyCheatButtonHover">#a6f0f0</Color>
+            <Color x:Key="GuyCheatButtonPressed">#90e8e8</Color>
+            <Color x:Key="GuyCheatButtonText">#52b3c3</Color>
+            <Color x:Key="GuyCheatButtonBorder">#52b3c3</Color>
+
+            <Color x:Key="FriendCheatButtonMain">#ffe3dc</Color>
+            <Color x:Key="FriendCheatButtonHover">#f4d0c7</Color>
+            <Color x:Key="FriendCheatButtonPressed">#f0beb2</Color>
+            <Color x:Key="FriendCheatButtonText">#e9809f</Color>
+            <Color x:Key="FriendCheatButtonBorder">#e9809f</Color>
+
+            <Color x:Key="OkButtonMain">#ffb5c8</Color>
+            <Color x:Key="OkButtonHover">#ee86a1</Color>
+            <Color x:Key="OkButtonPressed">#e56b8b</Color>
+            <Color x:Key="OkButtonText">#bd6d18</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme DensityStyle="Compact" />
+
+        <StyleInclude Source="avares://TMGSSaveEditor.Core/CoreStyles.axaml" />
+    </Application.Styles>
+</Application>

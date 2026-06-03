@@ -1,0 +1,3 @@
+[submodule "TMGSSaveEditor.Core"]
+	path = TMGSSaveEditor.Core
+	url = https://github.com/xCISACx/TMGSSaveEditor.Core.git

@@ -1,0 +1,99 @@
+# General
+.DS_Store
+.env
+.env.*
+.vscode/
+.junie
+.run
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.log
+*.pdb
+*.suo
+*.user
+*.bak
+*.ncb
+*.aps
+*.exe
+*.dll
+*.ilk
+*.lib
+*.obj
+*.o
+*.exp
+*.pch
+*.ipch
+*.com
+*.scr
+*.res
+*.resources
+*.tlb
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+*.builds
+*.pyc
+*.pyo
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+*.VC.opendb
+*.VC.db
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+!*.nupkg.metadata # Keep metadata for package restore
+
+# Avalonia UI
+/obj/
+/bin/
+*.Designer.cs
+*.g.cs
+*.xaml.g.cs
+*.xaml.g.i.cs
+*.pfx
+*.csproj.user
+*.funcproj
+Generated/
+.msbuild/
+Build/
+Output/
+Intermediate/
+Temp/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.#*
+*.swp
+.fuse_hidden*
+
+# misc
+*.pid
+*.seed
+*.log
+*.lo
+*.aux
+*.out
+*.toc
+*.blg
+*.bbl
+*.synctex.gz
+*.fdb_latexmk

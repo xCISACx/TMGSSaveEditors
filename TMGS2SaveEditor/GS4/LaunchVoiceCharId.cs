@@ -1,0 +1,36 @@
+﻿using System;
+
+
+namespace GS4
+{
+	
+	public enum LaunchVoiceCharId
+	{
+		
+		Init,
+		
+		Ch01,
+		
+		Ch02,
+		
+		Ch03,
+		
+		Ch04,
+		
+		Ch05,
+		
+		Ch06,
+		
+		Ch07,
+		
+		Ch08,
+		
+		Ch09,
+		
+		Ch25,
+		
+		Ch26,
+		
+		Max
+	}
+}

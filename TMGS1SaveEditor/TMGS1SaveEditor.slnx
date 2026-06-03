@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TMGSSaveEditor.Core/TMGSSaveEditor.Core.csproj" />
+  <Project Path="TMGS1SaveEditor.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TMGSSaveEditor.Core/TMGSSaveEditor.Core.csproj" Id="7ef63168-d971-4be3-88b5-f43db165ec70" />
+  <Project Path="TMGS4SaveEditor.csproj" />
+</Solution>

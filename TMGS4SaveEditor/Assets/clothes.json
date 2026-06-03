@@ -1,0 +1,2044 @@
+{
+  "Clothes": [
+    {
+      "ClothesNo": 0,
+      "Color": 0
+    },
+    {
+      "ClothesNo": 1,
+      "Color": 0
+    },
+    {
+      "ClothesNo": 2,
+      "Color": 0
+    },
+    {
+      "ClothesNo": 3,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 4,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 5,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 6,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 7,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 8,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 9,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 10,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 11,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 12,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 13,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 14,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 15,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 16,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 17,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 18,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 19,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 20,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 21,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 22,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 23,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 24,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 25,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 26,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 27,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 28,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 29,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 30,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 31,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 32,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 33,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 34,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 35,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 36,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 37,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 38,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 39,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 40,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 41,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 42,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 43,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 44,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 45,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 46,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 47,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 48,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 49,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 50,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 51,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 52,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 53,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 54,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 55,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 56,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 57,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 58,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 59,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 60,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 61,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 62,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 63,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 64,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 65,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 66,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 67,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 68,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 69,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 70,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 71,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 72,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 73,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 74,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 75,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 76,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 77,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 78,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 79,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 80,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 81,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 82,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 83,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 84,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 85,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 86,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 87,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 88,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 89,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 90,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 91,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 92,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 93,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 94,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 95,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 96,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 97,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 98,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 99,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 100,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 101,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 102,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 103,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 104,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 105,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 106,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 107,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 108,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 109,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 110,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 111,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 112,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 113,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 114,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 115,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 116,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 117,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 118,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 119,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 120,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 121,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 122,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 123,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 124,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 125,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 126,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 127,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 128,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 129,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 130,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 131,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 132,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 133,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 134,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 135,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 136,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 137,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 138,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 139,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 140,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 141,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 142,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 143,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 144,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 145,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 146,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 147,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 148,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 149,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 150,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 151,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 152,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 153,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 154,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 155,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 156,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 157,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 158,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 159,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 160,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 161,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 162,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 163,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 164,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 165,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 166,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 167,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 168,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 169,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 170,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 171,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 172,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 173,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 174,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 175,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 176,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 177,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 178,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 179,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 180,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 181,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 182,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 183,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 184,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 185,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 186,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 187,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 188,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 189,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 190,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 191,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 192,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 193,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 194,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 195,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 196,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 197,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 198,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 199,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 200,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 201,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 202,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 203,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 204,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 205,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 206,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 207,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 208,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 209,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 210,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 211,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 212,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 213,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 214,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 215,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 216,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 217,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 218,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 219,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 220,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 221,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 222,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 223,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 224,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 225,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 226,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 227,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 228,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 229,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 230,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 231,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 232,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 233,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 234,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 235,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 236,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 237,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 238,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 239,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 240,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 241,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 242,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 243,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 244,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 245,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 246,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 247,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 248,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 249,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 250,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 251,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 252,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 253,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 254,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 255,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 256,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 257,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 258,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 259,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 260,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 261,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 262,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 263,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 264,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 265,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 266,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 267,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 268,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 269,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 270,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 271,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 272,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 273,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 274,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 275,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 276,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 277,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 278,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 279,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 280,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 281,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 282,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 283,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 284,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 285,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 286,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 287,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 288,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 289,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 290,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 291,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 292,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 293,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 294,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 295,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 296,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 297,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 298,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 299,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 300,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 301,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 302,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 303,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 304,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 305,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 306,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 307,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 308,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 309,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 310,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 311,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 312,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 313,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 314,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 315,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 316,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 317,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 318,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 319,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 320,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 321,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 322,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 323,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 324,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 325,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 326,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 327,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 328,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 329,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 330,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 331,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 332,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 333,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 334,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 335,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 336,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 337,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 338,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 339,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 340,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 341,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 342,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 343,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 344,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 345,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 346,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 347,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 348,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 349,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 350,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 351,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 352,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 353,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 354,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 355,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 356,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 357,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 358,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 359,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 360,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 361,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 362,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 363,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 364,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 365,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 366,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 367,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 368,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 369,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 370,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 371,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 372,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 373,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 374,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 375,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 376,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 377,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 378,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 379,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 380,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 381,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 382,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 383,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 384,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 385,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 386,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 387,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 388,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 389,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 390,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 391,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 392,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 393,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 394,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 395,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 396,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 397,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 398,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 399,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 400,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 401,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 402,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 403,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 404,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 405,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 406,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 407,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 408,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 409,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 410,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 411,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 412,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 413,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 414,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 415,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 416,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 417,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 418,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 419,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 420,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 421,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 422,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 423,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 424,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 425,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 426,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 427,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 428,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 429,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 430,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 431,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 432,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 433,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 434,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 435,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 436,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 437,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 438,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 439,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 440,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 441,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 442,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 443,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 444,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 445,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 446,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 447,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 448,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 449,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 450,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 451,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 452,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 453,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 454,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 455,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 456,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 457,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 458,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 459,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 460,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 461,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 462,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 463,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 464,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 465,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 466,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 467,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 468,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 469,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 470,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 471,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 472,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 473,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 474,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 475,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 476,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 477,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 478,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 479,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 480,
+      "Color": 12
+    },
+    {
+      "ClothesNo": 481,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 482,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 483,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 484,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 485,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 486,
+      "Color": 7
+    },
+    {
+      "ClothesNo": 487,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 488,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 489,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 490,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 491,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 492,
+      "Color": 3
+    },
+    {
+      "ClothesNo": 493,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 494,
+      "Color": 10
+    },
+    {
+      "ClothesNo": 495,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 496,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 497,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 498,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 499,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 500,
+      "Color": 9
+    },
+    {
+      "ClothesNo": 501,
+      "Color": 1
+    },
+    {
+      "ClothesNo": 502,
+      "Color": 2
+    },
+    {
+      "ClothesNo": 503,
+      "Color": 8
+    },
+    {
+      "ClothesNo": 504,
+      "Color": 11
+    },
+    {
+      "ClothesNo": 505,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 506,
+      "Color": 5
+    },
+    {
+      "ClothesNo": 507,
+      "Color": 6
+    },
+    {
+      "ClothesNo": 508,
+      "Color": 4
+    },
+    {
+      "ClothesNo": 509,
+      "Color": 7
+    }
+  ]
+}
