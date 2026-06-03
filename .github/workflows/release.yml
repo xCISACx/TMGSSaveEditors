@@ -41,7 +41,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ matrix.app }}-Windows-x64.zip
-          allowUpdates: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build-linux:
     name: Package Linux Binary
@@ -74,7 +75,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ matrix.app }}-Linux-x64.tar.gz
-          allowUpdates: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build-mac:
     name: Package macOS App Bundle
@@ -118,7 +120,7 @@ jobs:
           mkdir -p "$APP_DIR/Contents/MacOS"
           mkdir -p "$APP_DIR/Contents/Resources"
           
-          cp ./publish/${{ matrix.app }}/mac-raw/${{ matrix.app }} "$APP_DIR/Contents/MacOS/"
+          cp -a ./publish/${{ matrix.app }}/mac-raw/* "$APP_DIR/Contents/MacOS/"
           chmod +x "$APP_DIR/Contents/MacOS/${{ matrix.app }}"
           
           cat <<EOF > "$APP_DIR/Contents/Info.plist"
@@ -157,4 +159,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ matrix.app }}-Mac-${{ matrix.arch }}.zip
-          allowUpdates: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
