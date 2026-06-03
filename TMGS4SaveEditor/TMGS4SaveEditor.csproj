@@ -44,13 +44,4 @@
   <ItemGroup>
     <ProjectReference Include="..\TMGSSaveEditor.Core\TMGSSaveEditor.Core.csproj" />
   </ItemGroup>
-
-
-  <ItemGroup>
-    <AvaloniaResource Remove="Assets\icon4.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Assets\icon4.ico" />
-  </ItemGroup>
 </Project>

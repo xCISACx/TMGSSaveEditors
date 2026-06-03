@@ -24,9 +24,6 @@
     <AvaloniaResource Include="Assets\icon1.ico" />
     <AvaloniaResource Include="Assets\logo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\icon1.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="12.0.4" />

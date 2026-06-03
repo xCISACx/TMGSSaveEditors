@@ -19,13 +19,12 @@
   <ItemGroup>
     <AvaloniaResource Include="Assets\character.png" />
     <AvaloniaResource Include="Assets\character_shock.png" />
-    <AvaloniaResource Include="Assets\icon3.ico" />
     <AvaloniaResource Include="Assets\logo.png" />
     <AvaloniaResource Include="Assets\Clothes Names.csv" />
     <AvaloniaResource Include="Assets\clothes.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\icon3.ico" />
+    <AvaloniaResource Include="Assets\icon3.ico" />
   </ItemGroup>
 
   <ItemGroup>

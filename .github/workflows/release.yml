@@ -51,6 +51,15 @@ jobs:
       fail-fast: false
       matrix:
         app: [ TMGS1SaveEditor, TMGS2SaveEditor, TMGS3SaveEditor, TMGS4SaveEditor ]
+        include:
+          - app: TMGS1SaveEditor
+            icon: "icon1.png"
+          - app: TMGS2SaveEditor
+            icon: "icon2.png"
+          - app: TMGS3SaveEditor
+            icon: "icon3.png"
+          - app: TMGS4SaveEditor
+            icon: "icon4.png"
 
     steps:
       - name: Clone Repository Content
@@ -68,6 +77,7 @@ jobs:
 
       - name: Archive Linux Artifacts
         run: |
+          cp "./${{ matrix.app }}/Assets/${{ matrix.icon }}" "./publish/${{ matrix.app }}/linux/${{ matrix.icon }}"
           cd ./publish/${{ matrix.app }}/linux
           tar -czvf ../../../${{ matrix.app }}-Linux-x64.tar.gz *
 
@@ -90,15 +100,19 @@ jobs:
           - app: TMGS1SaveEditor
             display_name: "TMGS 1 Save Editor"
             bundle_id: "com.tmgs1.saveeditor"
+            icon: "icon1.icns"
           - app: TMGS2SaveEditor
             display_name: "TMGS 2 Save Editor"
             bundle_id: "com.tmgs2.saveeditor"
+            icon: "icon2.icns"
           - app: TMGS3SaveEditor
             display_name: "TMGS 3 Save Editor"
             bundle_id: "com.tmgs3.saveeditor"
+            icon: "icon3.icns"
           - app: TMGS4SaveEditor
             display_name: "TMGS 4 Save Editor"
             bundle_id: "com.tmgs4.saveeditor"
+            icon: "icon4.icns"
 
     steps:
       - name: Clone Repository Content
@@ -123,6 +137,8 @@ jobs:
           cp -a ./publish/${{ matrix.app }}/mac-raw/* "$APP_DIR/Contents/MacOS/"
           chmod +x "$APP_DIR/Contents/MacOS/${{ matrix.app }}"
           
+          cp "./${{ matrix.app }}/Assets/${{ matrix.icon }}" "$APP_DIR/Contents/Resources/${{ matrix.icon }}"
+          
           cat <<EOF > "$APP_DIR/Contents/Info.plist"
           <?xml version="1.0" encoding="UTF-8"?>
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -144,6 +160,8 @@ jobs:
            <string>${{ matrix.app }}</string>
            <key>NSHighResolutionCapable</key>
            <true/>
+           <key>CFBundleIconFile</key>
+           <string>${{ matrix.icon }}</string>
           </dict>
           </plist>
           EOF
