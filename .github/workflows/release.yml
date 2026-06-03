@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-windows:
     name: Package Windows Desktop Binary
@@ -21,35 +24,70 @@ jobs:
           - app: TMGS4SaveEditor
 
     steps:
-    - name: Clone Repository Content
-      uses: actions/checkout@v4
-      with:
-        submodules: 'true'
+      - name: Clone Repository Content
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
 
-    - name: Configure .NET Environment
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '10.0.x'
+      - name: Configure .NET Environment
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
 
-    - name: Compile Windows Executable
-      run: dotnet publish "${{ matrix.app }}/${{ matrix.app }}.csproj" -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/${{ matrix.app }}/win
+      - name: Compile Windows Executable
+        run: dotnet publish "${{ matrix.app }}/${{ matrix.app }}.csproj" -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/${{ matrix.app }}/win
 
-    - name: Archive Windows Artifacts
-      run: Compress-Archive -Path ./publish/${{ matrix.app }}/win/* -DestinationPath ${{ matrix.app }}-Windows.zip
+      - name: Archive Windows Artifacts
+        run: Compress-Archive -Path ./publish/${{ matrix.app }}/win/* -DestinationPath ${{ matrix.app }}-Windows-x64.zip
 
-    - name: Upload Windows Asset to Release
-      uses: softprops/action-gh-release@v2
-      with:
-        files: ${{ matrix.app }}-Windows.zip
-        allowUpdates: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload Windows Asset to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.app }}-Windows-x64.zip
+          allowUpdates: true
+
+  build-linux:
+    name: Package Linux Binary
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - app: TMGS1SaveEditor
+          - app: TMGS2SaveEditor
+          - app: TMGS3SaveEditor
+          - app: TMGS4SaveEditor
+
+    steps:
+      - name: Clone Repository Content
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Configure .NET Environment
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Compile Linux Executable
+        run: dotnet publish "${{ matrix.app }}/${{ matrix.app }}.csproj" -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/${{ matrix.app }}/linux
+
+      - name: Archive Linux Artifacts
+        run: |
+          cd ./publish/${{ matrix.app }}/linux
+          tar -czvf ../../../${{ matrix.app }}-Linux-x64.tar.gz *
+
+      - name: Upload Linux Asset to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.app }}-Linux-x64.tar.gz
+          allowUpdates: true
 
   build-mac:
     name: Package macOS App Bundle
     runs-on: macos-latest
     strategy:
       matrix:
+        arch: [arm64, x64]
         include:
           - app: TMGS1SaveEditor
             display_name: "TMGS 1 Save Editor"
@@ -65,62 +103,60 @@ jobs:
             bundle_id: "com.tmgs4.saveeditor"
 
     steps:
-    - name: Clone Repository Content
-      uses: actions/checkout@v4
-      with:
-        submodules: 'true'
+      - name: Clone Repository Content
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
 
-    - name: Configure .NET Environment
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '10.0.x'
+      - name: Configure .NET Environment
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
 
-    - name: Compile macOS Binary
-      run: dotnet publish "${{ matrix.app }}/${{ matrix.app }}.csproj" -c Release -r osx-arm64 --self-contained true -p:PublishSingleFile=true -o ./publish/${{ matrix.app }}/mac-raw
+      - name: Compile macOS Binary
+        run: dotnet publish "${{ matrix.app }}/${{ matrix.app }}.csproj" -c Release -r osx-${{ matrix.arch }} --self-contained true -p:PublishSingleFile=true -o ./publish/${{ matrix.app }}/mac-raw
 
-    - name: Assemble Native App Bundle Directory
-      run: |
-        APP_DIR="./publish/${{ matrix.app }}/mac/${{ matrix.app }}.app"
-        mkdir -p "$APP_DIR/Contents/MacOS"
-        mkdir -p "$APP_DIR/Contents/Resources"
-        
-        cp ./publish/${{ matrix.app }}/mac-raw/${{ matrix.app }} "$APP_DIR/Contents/MacOS/"
-        chmod +x "$APP_DIR/Contents/MacOS/${{ matrix.app }}"
-        
-        cat <<EOF > "$APP_DIR/Contents/Info.plist"
-        <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-        <plist version="1.0">
-        <dict>
-            <key>CFBundleName</key>
-            <string>${{ matrix.app }}</string>
-            <key>CFBundleDisplayName</key>
-            <string>${{ matrix.display_name }}</string>
-            <key>CFBundleIdentifier</key>
-            <string>${{ matrix.bundle_id }}</string>
-            <key>CFBundleVersion</key>
-            <string>1.0.0</string>
-            <key>CFBundlePackageType</key>
-            <string>APPL</string>
-            <key>CFBundleSignature</key>
-            <string>????</string>
-            <key>CFBundleExecutable</key>
-            <string>${{ matrix.app }}</string>
-            <key>NSHighResolutionCapable</key>
-            <true/>
-        </dict>
-        </plist>
-        EOF
+      - name: Assemble Native App Bundle Directory
+        run: |
+          APP_DIR="./publish/${{ matrix.app }}/mac/${{ matrix.app }}.app"
+          mkdir -p "$APP_DIR/Contents/MacOS"
+          mkdir -p "$APP_DIR/Contents/Resources"
+          
+          cp ./publish/${{ matrix.app }}/mac-raw/${{ matrix.app }} "$APP_DIR/Contents/MacOS/"
+          chmod +x "$APP_DIR/Contents/MacOS/${{ matrix.app }}"
+          
+          cat <<EOF > "$APP_DIR/Contents/Info.plist"
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+              <key>CFBundleName</key>
+              <string>${{ matrix.app }}</string>
+              <key>CFBundleDisplayName</key>
+              <string>${{ matrix.display_name }}</string>
+              <key>CFBundleIdentifier</key>
+              <string>${{ matrix.bundle_id }}</string>
+              <key>CFBundleVersion</key>
+              <string>1.0.0</string>
+              <key>CFBundlePackageType</key>
+              <string>APPL</string>
+              <key>CFBundleSignature</key>
+              <string>????</string>
+              <key>CFBundleExecutable</key>
+              <string>${{ matrix.app }}</string>
+              <key>NSHighResolutionCapable</key>
+              <true/>
+          </dict>
+          </plist>
+          EOF
 
-    - name: Archive macOS Bundle
-      run: |
-        cd ./publish/${{ matrix.app }}/mac
-        zip -r ../../../${{ matrix.app }}-Mac-ARM64.zip ${{ matrix.app }}.app
+      - name: Archive macOS Bundle
+        run: |
+          cd ./publish/${{ matrix.app }}/mac
+          zip -r ../../../${{ matrix.app }}-Mac-${{ matrix.arch }}.zip ${{ matrix.app }}.app
 
-    - name: Upload macOS Asset to Release
-      uses: softprops/action-gh-release@v2
-      with:
-        files: ${{ matrix.app }}-Mac-ARM64.zip
-        allowUpdates: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload macOS Asset to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.app }}-Mac-${{ matrix.arch }}.zip
+          allowUpdates: true
