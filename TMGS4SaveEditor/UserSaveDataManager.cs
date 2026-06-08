@@ -14,7 +14,7 @@ using TMGSSaveEditor.Core;
 
 namespace TMGSSaveEditor
 {
-    public class UserSaveDataManager : ISaveDataManager
+    public partial class UserSaveDataManager : ISaveDataManager
     {
         string password = "wZ3jKy6WQ5qD4u7z";
 

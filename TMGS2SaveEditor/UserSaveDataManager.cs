@@ -14,7 +14,7 @@ using TMGSSaveEditor.Core;
 
 namespace TMGSSaveEditor
 {
-    public class UserSaveDataManager : ISaveDataManager
+    public partial class UserSaveDataManager : ISaveDataManager
     {
         string password = "Q5qD4u7zwZ3jKy6W";
 
@@ -44,9 +44,12 @@ namespace TMGSSaveEditor
 
         public string[] AdvCharacterNames => new string[]
         {
+            "Akagi",
+            "Yuu",
+            "Himeko",
+            "Master",
             "Komori",
             "Majima",
-            "Akagi"
         };
 
         public string[] ParameterNames => new string[]
